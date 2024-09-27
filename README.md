@@ -1,5 +1,50 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+# Travelopia Flight Status Board
+
+A real-time flight status board built using Next.js and TypeScript. The app fetches flight data from an API and displays it in a responsive table with live updates every 10 seconds.
+
+---
+
+## Table of Contents
+
+- [Travelopia Flight Status Board](#travelopia-flight-status-board)
+- [Project Description](#project-description)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Usage](#usage)
+- [Running Tests](#running-tests)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## Features
+
+- Real-time flight updates.
+- Interactive UI with clickable rows to view more details.
+- Responsive design for mobile and desktop.
+- Live polling every 10 seconds to fetch updated flight information.
+
+---
+
+## Tech Stack
+
+- **Frontend**: Next.js, TypeScript, React
+- **Backend**: Node.js, NestJS (for APIs, if relevant)
+- **State Management**: useState, useEffect
+- **UI**: TailwindCSS
+- **Testing**: Jest, React Testing Library
+
+---
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+
 ## Getting Started
 
 First, run the development server:
